@@ -1,4 +1,4 @@
-import getHealth from "./js/__tests__/app";
+import getHealth from './js/app';
 
 const character = { name: 'Маг', health: 90 };
 
