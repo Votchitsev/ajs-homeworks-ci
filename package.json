@@ -1,0 +1,29 @@
+{
+  "name": "ajs-homeworks-ci-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Votchitsev/ajs-homeworks-ci-template.git"
+  },
+  "author": "Votchitsev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Votchitsev/ajs-homeworks-ci-template/issues"
+  },
+  "homepage": "https://github.com/Votchitsev/ajs-homeworks-ci-template#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
+    "babel-jest": "^28.1.0",
+    "jest": "^28.1.0"
+  },
+  "dependencies": {
+    "core-js": "^3.22.8"
+  }
+}
