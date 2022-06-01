@@ -4,11 +4,11 @@ export default function getHealth(character) {
         return 'healthy';
     }
 
-    if (14 < character.health < 51) {
+    if (character.health <= 50 && character.health >= 15) {
         return 'wonded';
     }
 
     if (character.health < 15) {
         return 'critical';
     }
-}
+};
